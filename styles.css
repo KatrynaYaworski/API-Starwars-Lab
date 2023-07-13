@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-family: 'Star Wars', sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    
+}
+#main-photo{
+    background-image: url('https://images8.alphacoders.com/131/1311649.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.BailPrestorOrgana-img {
+    background-image: url('https://lumiere-a.akamaihd.net/v1/images/obi-wan-kenobi-story-gallery-part-1-09_7d0d1480.jpeg?region=36%2C0%2C951%2C536');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 420px;
+    opacity: .9;
+
+}
+
+.LeiaOrgana-img {
+    background-image: url('https://lumiere-a.akamaihd.net/v1/images/leia-organa-main_9af6ff81.jpeg?region=187%2C157%2C1400%2C786');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 420px;
+    opacity: .9;
+}
+
+.RaymusAntilles-img {
+    background-image: url('https://lumiere-a.akamaihd.net/v1/images/databank_captainantilles_01_169_75e05265.jpeg?region=0%2C0%2C1560%2C878');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 420px;
+    width: 420px;
+    opacity: .9;
+}
+
+#get-residents{
+    background-color: transparent;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    border: solid whitesmoke;
+}
